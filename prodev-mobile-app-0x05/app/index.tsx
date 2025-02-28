@@ -1,7 +1,7 @@
 import { Text, View, StyleSheet, Image, ImageBackground, Dimensions, TouchableOpacity } from "react-native";
 import { SafeAreaView, SafeAreaProvider } from "react-native-safe-area-context";
-import { FontAwesome, Ionicons } from '@expo/vector-icons'
-import { Link } from 'expo-router'
+import { FontAwesome, Ionicons } from '@expo/vector-icons';
+import { Link } from 'expo-router';
 
 export default function Index() {
   return (
@@ -30,11 +30,14 @@ export default function Index() {
             <View style={{ position: "absolute", bottom: 60, width: "100%" }}>
               {/* BUTTON GROUP */}
               <View style={styles.buttonGroup}>
+
+              
                 <TouchableOpacity style={styles.button}>
                   <Text style={{ ...styles.textSmall, color: "black" }}>
                     Join here
                   </Text>
                 </TouchableOpacity>
+
                 <TouchableOpacity style={styles.transparentButton}>
                   <Text style={styles.textSmall}>Sign in</Text>
                 </TouchableOpacity>
